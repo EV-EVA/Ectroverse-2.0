@@ -727,7 +727,7 @@ if( stat( DIRCHECKER, &stdata ) != -1 ) {
 httpString( cnt, "</table>" );
 
 #if FACEBOOK_SUPPORT
-httpString( cnt, "<br><div class=\"fb-like\" data-href=\"https://www.facebook.com/nectroverse\" data-layout=\"standard\" data-action=\"like\" data-show-faces=\"true\" data-share=\"true\" data-colorscheme=\"dark\"></div>" );
+httpString( cnt, "<br><div class=\"fb-like\" data-href=\"https://www.facebook.com/pages/Ectroverse/133044593518078\" data-layout=\"standard\" data-action=\"like\" data-show-faces=\"true\" data-share=\"true\" data-colorscheme=\"dark\"></div>" );
 #endif
 
 iohtmlFunc_endhtml( cnt );
