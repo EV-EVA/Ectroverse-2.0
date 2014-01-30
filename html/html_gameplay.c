@@ -2484,7 +2484,7 @@ if( ( id = iohtmlIdentify( cnt, 1|2 ) ) < 0 )
  httpPrintf( cnt, "<option value=\"2\"" );
  if( maind.aidaccess == 2 )
   httpPrintf( cnt, " selected" );
- httpPrintf( cnt, ">The Prime Minister and Minister of Development</option>" );
+ httpPrintf( cnt, ">The Leader and Vice-Leaders</option>" );
  httpPrintf( cnt, "<option value=\"3\"" );
  if( maind.aidaccess == 3 )
   httpPrintf( cnt, " selected" );
